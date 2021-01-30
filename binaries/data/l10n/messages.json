@@ -9,11 +9,12 @@
 				"extractor": "cpp",
 				"filemasks": {
 					"includeMasks": ["**.cpp"],
-					"excludeMasks": ["third_party/**", "tools/**"]
+					"excludeMasks": ["third_party/**"]
 				},
 				"options": {
 					"format": "c-format",
 					"keywords": {
+						"_": [1],
 						"Translate": [1],
 						"TranslatePlural": [1, 2],
 						"TranslateWithContext": [[1], 2],
